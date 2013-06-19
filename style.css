@@ -1,0 +1,41 @@
+body {
+	font-family: "arial", sans-serif;
+	font-size: 16px;
+	background: url("sea_otter.jpg");
+	background-size: cover;
+}
+
+p {
+	line-height: 24px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 25px;
+	background-color: #CDCDCD;
+	color: white;
+}
+.inside-wrapper {
+	margin: 20px;
+	padding-bottom: 10px;
+}
+ul li {
+	display: inline;
+	margin-right: 5px;
+}
+ul li a{
+	text-decoration: none;
+	color: green;
+}
+.video-heading {
+	text-decoration: underline;
+	font-size: .9em;
+}
+.video-wrapper iframe{
+	padding-left: 10px;
+	padding-top: 15px;
+}
+.video-wrapper img{
+	padding-left: 50px;
+	padding-top: 5px;
+}
