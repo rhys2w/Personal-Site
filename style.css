@@ -1,7 +1,7 @@
 body {
 	font-family: "arial", sans-serif;
 	font-size: 16px;
-	background: url("sea_otter.jpg");
+	background: url("background.jpg");
 	background-size: cover;
 }
 
@@ -12,7 +12,7 @@ p {
 	width: 80%;
 	margin: 0 auto;
 	padding-top: 25px;
-	background-color: #CDCDCD;
+	background-color: rgba(25,25,25,.45);
 	color: white;
 }
 .inside-wrapper {
@@ -39,3 +39,68 @@ ul li a{
 	padding-left: 50px;
 	padding-top: 5px;
 }
+.dog_photos img {
+	padding-left: 50px;
+	border-color: blue;
+	border
+}
+.index-content img {
+	float: left;
+	padding-left: 25px;
+}
+img.cab {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+img.beach {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+span.p_cab{
+	padding-left: 195px;
+}
+span.p_beach{
+	padding-left: 110px;
+}
+img.suitcase {
+	padding-left: 45px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+img.cook {
+	padding-left: 45px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+span.p_cook{
+	padding-left: 205px;
+}
+span.p_suitcase{
+	padding-left: 115px;
+}
+.about-list li{
+	display: list-item;
+	list-style: square;
+}
+p a {
+	text-decoration: none;
+	color: blue;
+}
+p a:hover {
+	background: blue;
+	color: white;
+}
+.contact-list li{
+	display: list-item;
+	list-style: none;
+}
+.contact-list li a {
+	text-decoration: none;
+	color: blue;
+}
+.contact-list li a:hover {
+background: blue;
+	color: white;
+	}
